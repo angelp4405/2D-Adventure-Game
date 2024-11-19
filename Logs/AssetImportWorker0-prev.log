@@ -1,0 +1,782 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.5 (Build 20G527)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game12/2D Adventure Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55802
+Successfully changed project path to: /Users/game12/2D Adventure Game
+/Users/game12/2D Adventure Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game12/2D Adventure Game/Assets
+GfxDevice: creating device client; threaded=0
+2024-11-18 08:53:05.279 Unity[90312:11264773] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2024-11-18 08:53:05.279 Unity[90312:11264773] Metal devices available: 1
+2024-11-18 08:53:05.279 Unity[90312:11264773] 0: AMD Radeon Pro 5500 XT (high power)
+2024-11-18 08:53:05.280 Unity[90312:11264773] Using device AMD Radeon Pro 5500 XT (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500 XT
+Initialize mono
+Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000453 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 40.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.531 seconds
+Domain Reload Profiling:
+	ReloadAssembly (531ms)
+		BeginReloadAssembly (38ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (429ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 40.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.071 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1071ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (884ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.004090 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.004050 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.7 MB.
+System memory in use after: 228.8 MB.
+
+Unloading 122 unused Assets to reduce memory usage. Loaded Objects now: 3005.
+Total: 2.975565 ms (FindLiveObjects: 0.170176 ms CreateObjectMapping: 0.093967 ms MarkObjects: 2.288601 ms  DeleteObjects: 0.422159 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Tiles/Tilepallete.prefab
+  artifactKey: Guid(ead32c65da8a140caaa193e679f28e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Tiles/Tilepallete.prefab using Guid(ead32c65da8a140caaa193e679f28e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931c16d47c8de65388e077ec056dbb03') in 0.915336 seconds 
+  Import took 0.920716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.760507 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Characters
+  artifactKey: Guid(ad32d7492a9bafe46897d717c27d4ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Characters using Guid(ad32d7492a9bafe46897d717c27d4ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7227457775b4b898924ed5baf809543') in 0.001278 seconds 
+  Import took 0.004329 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.030 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1030ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.8 MB.
+System memory in use after: 234.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3014.
+Total: 2.572872 ms (FindLiveObjects: 0.169865 ms CreateObjectMapping: 0.095644 ms MarkObjects: 2.229539 ms  DeleteObjects: 0.077325 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001754 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.004 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1004ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (840ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.4 MB.
+System memory in use after: 235.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3016.
+Total: 2.603273 ms (FindLiveObjects: 0.173131 ms CreateObjectMapping: 0.099173 ms MarkObjects: 2.258960 ms  DeleteObjects: 0.071526 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 916.764010 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_1.png
+  artifactKey: Guid(c8e02a492c72fac4199a2c8e8b2820dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_1.png using Guid(c8e02a492c72fac4199a2c8e8b2820dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da222ab90b4de7292512ae3870ecdcf4') in 0.715532 seconds 
+  Import took 0.721939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 468.380247 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/PlayerCharacter.png
+  artifactKey: Guid(abcb801ad7499c74caa94a1efaff9900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/PlayerCharacter.png using Guid(abcb801ad7499c74caa94a1efaff9900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92496a11edbac13587ab7474d4217065') in 0.009017 seconds 
+  Import took 0.012401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.571512 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Materials/Decoration_7.mat
+  artifactKey: Guid(ec86feaa053f94ccbba5e52e731a95b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Materials/Decoration_7.mat using Guid(ec86feaa053f94ccbba5e52e731a95b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6162af0244746259ec6f7f363d4d24a6') in 0.333620 seconds 
+  Import took 0.338611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Materials/Decoration_10.mat
+  artifactKey: Guid(cb9197c0e901d4857bef43486757ef2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Materials/Decoration_10.mat using Guid(cb9197c0e901d4857bef43486757ef2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d375af8151a985a7ffa4c2c8b826fe') in 0.008700 seconds 
+  Import took 0.011847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Materials/Decoration_11.mat
+  artifactKey: Guid(d2be1c3be6a9b4f6591b45df0c313143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Materials/Decoration_11.mat using Guid(d2be1c3be6a9b4f6591b45df0c313143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234ef32d0b3cab57af912300c63912b7') in 0.010249 seconds 
+  Import took 0.013178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.302036 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Characters/Enemy.png
+  artifactKey: Guid(5d288693bd81e144bafa7a4d85f86d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Characters/Enemy.png using Guid(5d288693bd81e144bafa7a4d85f86d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fea7188f91e569f46986821751fa48f') in 0.011316 seconds 
+  Import took 0.014864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Characters/NonPlayerCharacterSheet.png
+  artifactKey: Guid(0810b22bc7226864fa103bd69d527f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Characters/NonPlayerCharacterSheet.png using Guid(0810b22bc7226864fa103bd69d527f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8c78e8e5fdf357420c480134090b55') in 0.011145 seconds 
+  Import took 0.013933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Characters/EnemySheet.png
+  artifactKey: Guid(cfd6f82ef4dc6d74ab5d4a8971d25eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Characters/EnemySheet.png using Guid(cfd6f82ef4dc6d74ab5d4a8971d25eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f1a6facfe75488ebaaa7b083c0f79e') in 0.057471 seconds 
+  Import took 0.060537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.109755 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs
+  artifactKey: Guid(5b9013c5717fe4fa2a3944e21bac4fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs using Guid(5b9013c5717fe4fa2a3944e21bac4fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6822e70945db2ff2a8f5c9713b7f0ca5') in 0.001593 seconds 
+  Import took 0.004793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.945813 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/VFX
+  artifactKey: Guid(d119f6a4d30035149bb20a3baf2df684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/VFX using Guid(d119f6a4d30035149bb20a3baf2df684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df9bb442927bdd627116b473d456c65') in 0.000912 seconds 
+  Import took 0.003912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.017397 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_2.png
+  artifactKey: Guid(cf5eff8f9485fc24e951fc882f39424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_2.png using Guid(cf5eff8f9485fc24e951fc882f39424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad286cdcf927403e81d591b555bc89eb') in 0.011360 seconds 
+  Import took 0.015057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.435543 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_3.png
+  artifactKey: Guid(c5ea83394845a1942b00ce0b77650251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_3.png using Guid(c5ea83394845a1942b00ce0b77650251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c468633f6725d44374e6060b30f300cf') in 0.012292 seconds 
+  Import took 0.015706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.904471 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_4.png
+  artifactKey: Guid(9c6fdf2d7f82c394db6293eed1c9beff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_4.png using Guid(9c6fdf2d7f82c394db6293eed1c9beff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7860febb5f8369a5ef251bcdf42a06') in 0.011673 seconds 
+  Import took 0.014942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.315881 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_5.png
+  artifactKey: Guid(97fa694f88581c74e97c5fdfc8d5eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_5.png using Guid(97fa694f88581c74e97c5fdfc8d5eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde25065c962c3475c02ad4d8dfaeb96') in 0.011216 seconds 
+  Import took 0.014534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.526376 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_6.png
+  artifactKey: Guid(596fb990f4b2c7a46bee93a351a552d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_6.png using Guid(596fb990f4b2c7a46bee93a351a552d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819e0f2f594079e4278665f34c584e4b') in 0.013199 seconds 
+  Import took 0.016765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.084955 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_7.png
+  artifactKey: Guid(a4beff249b73e1a4abd249b214b6d0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_7.png using Guid(a4beff249b73e1a4abd249b214b6d0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26d5eb9995c322e4ab1b0600edb5c74') in 0.012059 seconds 
+  Import took 0.015885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.207023 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_8.png
+  artifactKey: Guid(ad192b632064fbd41b8fb768211b1db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_8.png using Guid(ad192b632064fbd41b8fb768211b1db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4237de816588239d2364f0c4f2beb2') in 0.012386 seconds 
+  Import took 0.015731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.262695 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_9.png
+  artifactKey: Guid(d985fa4b14fb0f54ebe8e783b54b95f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_9.png using Guid(d985fa4b14fb0f54ebe8e783b54b95f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1550c5d3b101319dae741e6eaccd9708') in 0.011510 seconds 
+  Import took 0.015313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.213269 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_10.png
+  artifactKey: Guid(f56302db74cee6b47b1db39ac379c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_10.png using Guid(f56302db74cee6b47b1db39ac379c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6005551846d33e0c3d12a304954de11d') in 0.011753 seconds 
+  Import took 0.014978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.891137 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_11.png
+  artifactKey: Guid(24e0b3228802f88478a1a195153be69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_11.png using Guid(24e0b3228802f88478a1a195153be69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c7a2a09bd2ca202012e82c7fb2f748') in 0.012604 seconds 
+  Import took 0.016030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.660867 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_12.png
+  artifactKey: Guid(60039189d8e15934c87b694aac16e9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_12.png using Guid(60039189d8e15934c87b694aac16e9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c62ebc7d38f8b5bad32ea1d2fda1255') in 0.010853 seconds 
+  Import took 0.014281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.058603 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_13.png
+  artifactKey: Guid(c04246d7c5d23984484e3f1ffe154423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_13.png using Guid(c04246d7c5d23984484e3f1ffe154423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff3f660af4c9018e7d3b79151bd646b') in 0.011451 seconds 
+  Import took 0.014885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.931256 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_14.png
+  artifactKey: Guid(368aa74599d5e1b4eb91a2848c2c3a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_14.png using Guid(368aa74599d5e1b4eb91a2848c2c3a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ebae740344216fac56d7c2fb6c28d3') in 0.012732 seconds 
+  Import took 0.016113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.853690 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_15.png
+  artifactKey: Guid(2eaf00e41992b78498835f6c6d787ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_15.png using Guid(2eaf00e41992b78498835f6c6d787ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af2fc2acfcda78aa8db87cd43c71241') in 0.022641 seconds 
+  Import took 0.025896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.973795 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_16.png
+  artifactKey: Guid(d4de8d13cbff12840a6ab5b3606a7a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_16.png using Guid(d4de8d13cbff12840a6ab5b3606a7a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5bf3f791bfa754dac684e2ffe0cc98') in 0.010151 seconds 
+  Import took 0.013928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.140856 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_17.png
+  artifactKey: Guid(156a2433b071ef5499e030105831249c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_17.png using Guid(156a2433b071ef5499e030105831249c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0576c7b89129c20725c230599cb8f690') in 0.010535 seconds 
+  Import took 0.013823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.017007 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_18.png
+  artifactKey: Guid(4f08193b1de2d2d42a2a43737a4d6372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_18.png using Guid(4f08193b1de2d2d42a2a43737a4d6372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d12ee90ca18611835afda5aed75928') in 0.011974 seconds 
+  Import took 0.015613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.167335 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_19.png
+  artifactKey: Guid(0624a585c97b74f45b5d5ce37ca4ee16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_19.png using Guid(0624a585c97b74f45b5d5ce37ca4ee16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8331321aa8a291fc1ab2f72cb3321be7') in 0.012383 seconds 
+  Import took 0.015925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.512600 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_10.prefab
+  artifactKey: Guid(071958bb6dd3e4556b18ac85677eb9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_10.prefab using Guid(071958bb6dd3e4556b18ac85677eb9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2f9f3c0d6757ce7c54ccc31a3ff21a') in 0.017413 seconds 
+  Import took 0.021600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.158763 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_12.prefab
+  artifactKey: Guid(bfcb83cecec604c98a456604e6b40705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_12.prefab using Guid(bfcb83cecec604c98a456604e6b40705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fa6f4e6be5b28ba6682b303ef1743b') in 0.009436 seconds 
+  Import took 0.013171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.219710 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_16.prefab
+  artifactKey: Guid(007e934f237714a61aee859aaf5db041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_16.prefab using Guid(007e934f237714a61aee859aaf5db041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bbaa162889af20bc3228de267c0b53') in 0.009074 seconds 
+  Import took 0.012492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.162084 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_16 (1).prefab
+  artifactKey: Guid(b281f215102b541ed95b2a38c79f818c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_16 (1).prefab using Guid(b281f215102b541ed95b2a38c79f818c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63a6eafb4cd8158f973030d68f0031b') in 0.010326 seconds 
+  Import took 0.013605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.946842 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_16 (2).prefab
+  artifactKey: Guid(ab56f792507ab466d911c4ca81e99bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_16 (2).prefab using Guid(ab56f792507ab466d911c4ca81e99bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9377000d74ef6eadc7c737dc813b5c9') in 0.009342 seconds 
+  Import took 0.012726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.470382 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_18.prefab
+  artifactKey: Guid(1a10273735ed649a4acd8c4a6c6d3018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_18.prefab using Guid(1a10273735ed649a4acd8c4a6c6d3018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dda1c25fd3178188ba4f8577f1de7d0') in 0.009692 seconds 
+  Import took 0.013199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.905690 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_18 (1).prefab
+  artifactKey: Guid(7c2b7e50eca4e40e680499986370ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_18 (1).prefab using Guid(7c2b7e50eca4e40e680499986370ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb270e0ad0232f1e782eef5dc1a33b7b') in 0.010264 seconds 
+  Import took 0.013754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.994607 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_19.prefab
+  artifactKey: Guid(af480150e944345a2b6aeb4ffca6948d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_19.prefab using Guid(af480150e944345a2b6aeb4ffca6948d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4a6e36239c80f860ef8432acae46bc') in 0.009525 seconds 
+  Import took 0.013223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.914034 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_7.prefab
+  artifactKey: Guid(639f7c90a07e84c5288eb7c960d4f4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_7.prefab using Guid(639f7c90a07e84c5288eb7c960d4f4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35ed0b65d23d47647890696972ed084') in 0.009192 seconds 
+  Import took 0.012687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.697845 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_17.prefab
+  artifactKey: Guid(1b6eed6fb72b34fca832848af227dde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_17.prefab using Guid(1b6eed6fb72b34fca832848af227dde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0628ba124ac47d248b4aa4fcee08823') in 0.009216 seconds 
+  Import took 0.013029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.252883 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_15 (1).prefab
+  artifactKey: Guid(4c8bf75c8f52b4545b354af87f50049c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_15 (1).prefab using Guid(4c8bf75c8f52b4545b354af87f50049c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1707c474a4a7b316f96331b9e1abe97d') in 0.008355 seconds 
+  Import took 0.011592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.348838 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_19 (1).prefab
+  artifactKey: Guid(e23a6338281114402ae1156e5c5dadd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_19 (1).prefab using Guid(e23a6338281114402ae1156e5c5dadd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244b8cea9c312ac2bde225121b1ce305') in 0.009543 seconds 
+  Import took 0.012834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.325046 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_15 (2).prefab
+  artifactKey: Guid(ad78d28376ce744579bd9c2617e08f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_15 (2).prefab using Guid(ad78d28376ce744579bd9c2617e08f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eade11cad7086f7c3e1b6b3f5af396ae') in 0.009162 seconds 
+  Import took 0.012564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.831774 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_16 (3).prefab
+  artifactKey: Guid(5f9bb5750a4ff4241a0fbeb9b6608292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_16 (3).prefab using Guid(5f9bb5750a4ff4241a0fbeb9b6608292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0027839fb6e40bdf4df73d6abde9ef2f') in 0.009021 seconds 
+  Import took 0.012289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.042384 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_13.prefab
+  artifactKey: Guid(48bf3029bb96844e9806d94298ed982c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_13.prefab using Guid(48bf3029bb96844e9806d94298ed982c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fd9d01d4494a401608f54d698a8ea6') in 0.010614 seconds 
+  Import took 0.014064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.204227 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_19 (2).prefab
+  artifactKey: Guid(1484d7b4980b040e381b1b15cf807d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_19 (2).prefab using Guid(1484d7b4980b040e381b1b15cf807d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f7f6c644565c89e525776333e281af') in 0.010122 seconds 
+  Import took 0.013425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.435587 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_6.prefab
+  artifactKey: Guid(fd979041671dc4e7aaf4f2637b143c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_6.prefab using Guid(fd979041671dc4e7aaf4f2637b143c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b4cb19195ca6a406cdb6ae26e5c9ee') in 0.009391 seconds 
+  Import took 0.012793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.531885 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_9.prefab
+  artifactKey: Guid(9851dad45f3f346b8822d2da2c2eda40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_9.prefab using Guid(9851dad45f3f346b8822d2da2c2eda40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a029cb6e0bd80b37bd05c4a548222d') in 0.009254 seconds 
+  Import took 0.012651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.095929 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_13 (1).prefab
+  artifactKey: Guid(73cda6a40681b43f69e283cc0ddc355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_13 (1).prefab using Guid(73cda6a40681b43f69e283cc0ddc355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef463a3258bd5fb7af7da140da0e5a81') in 0.010063 seconds 
+  Import took 0.013491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.757500 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_14.prefab
+  artifactKey: Guid(530284fc6fb1e41939dd7c248e35ed3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_14.prefab using Guid(530284fc6fb1e41939dd7c248e35ed3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c297254bd061dc3772fc62dadd671ac') in 0.011345 seconds 
+  Import took 0.014927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.973814 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_1.prefab
+  artifactKey: Guid(879db2b1b5e03422cafb973599a6ad00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_1.prefab using Guid(879db2b1b5e03422cafb973599a6ad00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030bc5b214fe75a0077946c86186a358') in 0.009511 seconds 
+  Import took 0.012908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.157095 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_1 (1).prefab
+  artifactKey: Guid(aee7712827b0c466dbee4f140a0ef2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_1 (1).prefab using Guid(aee7712827b0c466dbee4f140a0ef2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb67f11985fa9e54eb04664b4af2093') in 0.009263 seconds 
+  Import took 0.012620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.336055 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_9 (1).prefab
+  artifactKey: Guid(c3b6c0602de6c43989f51832be57e4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_9 (1).prefab using Guid(c3b6c0602de6c43989f51832be57e4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c51ff631ec7eadb47a2bb0b8e9c818') in 0.010317 seconds 
+  Import took 0.013945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.041747 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_16 (4).prefab
+  artifactKey: Guid(420b8c084d4d34df09c06c37ee713ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_16 (4).prefab using Guid(420b8c084d4d34df09c06c37ee713ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2dd64a1636bc1570777736e979b293') in 0.008925 seconds 
+  Import took 0.012476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.782178 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_16 (5).prefab
+  artifactKey: Guid(2f84199674880451d8e93e482c80a691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_16 (5).prefab using Guid(2f84199674880451d8e93e482c80a691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd3612771edd8eb76737098b2342f43') in 0.009216 seconds 
+  Import took 0.012612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.003867 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_17 (1).prefab
+  artifactKey: Guid(9bc9e4603fc934645ac23e46ab394058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_17 (1).prefab using Guid(9bc9e4603fc934645ac23e46ab394058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b3f97e90b6eb97d68591f60c90d9ff') in 0.009616 seconds 
+  Import took 0.012856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.932575 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_17 (2).prefab
+  artifactKey: Guid(9808e7b651d8e49dba4132f7df5f298c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_17 (2).prefab using Guid(9808e7b651d8e49dba4132f7df5f298c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad02bbee59b63dc7641ed2dea2fb15d') in 0.009630 seconds 
+  Import took 0.013207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.434760 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_12 (1).prefab
+  artifactKey: Guid(3810b2a7822454cb2b2f5d9a1bd057e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_12 (1).prefab using Guid(3810b2a7822454cb2b2f5d9a1bd057e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce61636cb4146f32db0654ca475fabc9') in 0.009032 seconds 
+  Import took 0.012359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.775294 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_4.prefab
+  artifactKey: Guid(73637d7119d8f473baec33208f61f1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_4.prefab using Guid(73637d7119d8f473baec33208f61f1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abb30287e17adb8078c7f2aa0f7e67d') in 0.009000 seconds 
+  Import took 0.012268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.447778 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_4 (1).prefab
+  artifactKey: Guid(0b50e5084e2dc4267befbeb459254aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_4 (1).prefab using Guid(0b50e5084e2dc4267befbeb459254aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9382af195734e445c7494566fd8763cc') in 0.009012 seconds 
+  Import took 0.012711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.452860 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_5.prefab
+  artifactKey: Guid(89dda3bbf5d6c42328a28d198635c9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_5.prefab using Guid(89dda3bbf5d6c42328a28d198635c9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f900eb99fe0b9ba448698cb22ec9953') in 0.010131 seconds 
+  Import took 0.013513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.944956 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_5 (1).prefab
+  artifactKey: Guid(1405d19241c8f4ae0a6a53799b08a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_5 (1).prefab using Guid(1405d19241c8f4ae0a6a53799b08a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be13bbfeeb69fdda112464c30b972b5') in 0.012944 seconds 
+  Import took 0.016521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.871923 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_15.prefab
+  artifactKey: Guid(23a40587f6da343aead6da74fe2b2320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Prefabs/Decoration_15.prefab using Guid(23a40587f6da343aead6da74fe2b2320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d56a30a9dec4d3a7dd732a236b1e4db') in 0.009288 seconds 
+  Import took 0.012595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.578769 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/UI
+  artifactKey: Guid(fe0146509e276bf4684cebdee586d307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/UI using Guid(fe0146509e276bf4684cebdee586d307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66387604da81012fa0c3e19e15103932') in 0.000856 seconds 
+  Import took 0.003816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.363556 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/DamageZone.png
+  artifactKey: Guid(13249ead3faf799469c8786003b8d91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/DamageZone.png using Guid(13249ead3faf799469c8786003b8d91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c68859e0479eb282940687c79d16086') in 0.010699 seconds 
+  Import took 0.013984 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
