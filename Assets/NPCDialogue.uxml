@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="GameUI" src="GameUI.uxml" />
+    <ui:VisualElement name="Background" style="background-image: url(&apos;/Assets/UnityTechnologies/StarterAsset/Art/SugarLand/UI/UIDialogueBox.png&apos;); width: 100%; height: 100%;">
+        <ui:Label text="Hey, Melly! Whatcha doin’? Thinking about marshmallow stuff?" display-tooltip-when-elided="true" name="Label" style="width: 100%; height: 100%; padding-left: 25px; padding-right: 25px; padding-top: 25px; padding-bottom: 25px; color: rgb(0, 0, 0); font-size: 32px; white-space: normal;" />
+    </ui:VisualElement>
+    <ui:Instance template="GameUI" name="GameUI" />
+    <ui:Instance template="GameUI" name="GameUI" />
+    <ui:Instance template="GameUI" name="GameUI" />
+</ui:UXML>
