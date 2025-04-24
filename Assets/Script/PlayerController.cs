@@ -35,6 +35,9 @@ public class PlayerController : MonoBehaviour
 
     public InputAction talkAction;
 
+    // Variables related to audio
+    AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +48,7 @@ public class PlayerController : MonoBehaviour
         projectileShoot.Enable();
         ChangeHealth(1);
         talkAction.Enable();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -131,4 +135,8 @@ public class PlayerController : MonoBehaviour
 
         }
     }
+        public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
+    }   
 }
