@@ -650,3 +650,20 @@ Received Import Request.
 Start importing Assets/Prefabs/Enemy.prefab using Guid(6394d4cc077c14ddca59a844ef5d41a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a77d2e13b8133f299b0d7de8e21b37a') in 0.018768 seconds 
   Import took 0.023291 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 272.256216 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/VFX/ParticlesSprietAtlasSprinkles.png
+  artifactKey: Guid(ca86201731dca09429051263bfc6805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/VFX/ParticlesSprietAtlasSprinkles.png using Guid(ca86201731dca09429051263bfc6805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486e14c734bd7b1a432e03cc8984e520') in 0.010350 seconds 
+  Import took 0.014821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 261.799464 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/VFX/ParticlesSprietAtlasSprinkles.png
+  artifactKey: Guid(ca86201731dca09429051263bfc6805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/VFX/ParticlesSprietAtlasSprinkles.png using Guid(ca86201731dca09429051263bfc6805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7ad69dfc4380eaf41de8605fc0cdaa') in 0.028552 seconds 
+  Import took 0.032998 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
